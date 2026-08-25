@@ -5,6 +5,14 @@ data in BIDS. It covers Transcranial Magnetic Stimulation (**TMS**), Transcrania
 Stimulation (**TES**, e.g. tDCS, tACS, tRNS, tPCS), Transcranial Ultrasound Stimulation (**TUS**),
 and Peripheral Nerve Stimulation (**PNS**). However, the structure is also applicable to any form of NIBS including Transcranial Photobiomodulation (tPBM) and Transcranial Static Magnetic Field Stimulation (tSMS).
 
+**A validator for this draft is available.**
+A test build of the BIDS validator that understands this specification runs at https://giacomobert.github.io/bids-validator_BEP37_test/. Select a dataset folder and it is checked against the structure described here. Validation happens entirely in the browser and no files are uploaded anywhere.
+
+This is a test build from a personal fork, not an official BIDS tool, and it tracks this document as it changes. It was produced as a first Claude-assisted test of the validator, in which this specification was encoded as a BIDS schema and the example datasets were run against it. That exercise surfaced a number of issues in this document. They are listed with their resolutions in "bids-validator issues and fixes" at the end.
+
+All six example datasets currently validate with no errors. Feedback on the validator, and on anything it flags in your own data, is welcome.
+
+
 ---
 
 ## What this specification records
